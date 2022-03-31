@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="top|center_horizontal">
+
+
+
+            <Button
+                android:id="@+id/bt_Start_Started_Service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Start Started Service"/>
+
+            <Button
+                android:id="@+id/bt_Stop_Started_Service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Stop Started Service" />
+            <Button
+                android:id="@+id/bt_Print_TimeStamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:text="Print TimeStamp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Time Stamp"
+                android:id="@+id/tv_time"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/bt_Start_Bound_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="Start Bound Service"/>
+    <Button
+        android:id="@+id/bt_Stop_Bound_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="Stop Bound Service"/>
+
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/tv_level_battery"
+        android:textStyle="bold|italic"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+
+
+</LinearLayout>
